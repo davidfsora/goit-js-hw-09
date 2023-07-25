@@ -4,6 +4,7 @@ import "flatpickr/dist/flatpickr.min.css";
 
 let startButton = document.querySelector("button");
 let pickerDate = new Date();
+let timer;
 
 const options = {
 	enableTime: true,
